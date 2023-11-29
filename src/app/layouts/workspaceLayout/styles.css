@@ -1,0 +1,13 @@
+.workspaceLayout {
+    width: 100%;
+    height: 100%;  
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}

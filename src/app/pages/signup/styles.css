@@ -1,0 +1,42 @@
+main {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.separator {
+    margin-bottom: 25px;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #1976d2;
+}
+
+.signup {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #1976d2;
+    margin-top: 10px;
+}
+
+.signup:hover {
+    cursor: pointer;
+}

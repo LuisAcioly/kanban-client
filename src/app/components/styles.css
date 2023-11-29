@@ -1,0 +1,91 @@
+.workspaceModalTitle {
+    font-family: 'Roboto';
+}
+
+.workspaceNameHolder {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.workspaceUsersHolder {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.workspaceCard {
+    width: 25%;
+    aspect-ratio: 1 / 1;;
+    border: 1px solid #1976d2;
+    border-radius: 15px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    padding: 10px;
+}
+
+.workspaceCard:hover{
+    cursor: pointer;
+    background-color: #1976d2;
+    opacity: 0.7;
+}
+
+.workspaceCard h1 {
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+
+.workspaceBoardsHolder {
+    height: 100%;
+    padding-top: 25px;
+}
+
+.workspaceBoardsHolder h1 {
+    font-family: 'Roboto';
+}
+
+.boardsHolder {
+    height: 100%;
+}
+
+.addBoardButton {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background: rgba(26, 117, 209, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.addBoardButton:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.boardCard {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #1976d2;
+    border-radius: 15px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    padding: 10px;
+}
+
+.boardCard:hover{
+    cursor: pointer;
+    background-color: #1976d2;
+    opacity: 0.7;
+}
+
+.boardCard h1 {
+    font-family: 'Roboto';
+    font-size: 24px;
+}
